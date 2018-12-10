@@ -1,0 +1,125 @@
+andrewg@DESKTOP-3IMURTU:/mnt/c/Users/garci/Desktop/gromacs-free-energy-tutorial$ gmx bar -b 100 -f lambda_*/dhdl.xvg
+                       :-) GROMACS - gmx bar, 2018.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen
+ Christian Wennberg    Maarten Wolf
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx bar, version 2018.1
+Executable:   /usr/bin/gmx
+Data prefix:  /usr
+Working dir:  /mnt/c/Users/garci/Desktop/gromacs-free-energy-tutorial
+Command line:
+  gmx bar -b 100 -f lambda_00/dhdl.xvg lambda_01/dhdl.xvg lambda_02/dhdl.xvg lambda_03/dhdl.xvg lambda_04/dhdl.xvg lambda_05/dhdl.xvg lambda_06/dhdl.xvg
+
+lambda_00/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_00/dhdl.xvg: 0.0 - 200.0; lambda = 0
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0 (2001 pts)
+        delta H to 0.2 (2001 pts)
+
+
+lambda_01/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_01/dhdl.xvg: 0.0 - 200.0; lambda = 0.2
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0 (2001 pts)
+        delta H to 0.2 (2001 pts)
+        delta H to 0.4 (2001 pts)
+
+
+lambda_02/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_02/dhdl.xvg: 0.0 - 200.0; lambda = 0.4
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0.2 (2001 pts)
+        delta H to 0.4 (2001 pts)
+        delta H to 0.6 (2001 pts)
+
+
+lambda_03/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_03/dhdl.xvg: 0.0 - 200.0; lambda = 0.6
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0.4 (2001 pts)
+        delta H to 0.6 (2001 pts)
+        delta H to 0.8 (2001 pts)
+
+
+lambda_04/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_04/dhdl.xvg: 0.0 - 200.0; lambda = 0.8
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0.6 (2001 pts)
+        delta H to 0.8 (2001 pts)
+        delta H to 0.9 (2001 pts)
+
+
+lambda_05/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_05/dhdl.xvg: 0.0 - 200.0; lambda = 0.9
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0.8 (2001 pts)
+        delta H to 0.9 (2001 pts)
+        delta H to 1 (2001 pts)
+
+
+lambda_06/dhdl.xvg: Ignoring set 'pV (kJ/mol)'.
+lambda_06/dhdl.xvg: 0.0 - 200.0; lambda = 1
+    dH/dl & foreign lambdas:
+        dH/dl (fep-lambda) (2001 pts)
+        delta H to 0.9 (2001 pts)
+        delta H to 1 (2001 pts)
+
+
+
+   Samples in time interval: 0.000 - 200.000
+Removing samples outside of: 100.000 - 200.000
+
+Temperature: 300 K
+
+Detailed results in kT (see help for explanation):
+
+ lam_A  lam_B      DG   +/-     s_A   +/-     s_B   +/-   stdev   +/-
+     0      1   -8.14  0.07    0.24  0.04    0.23  0.04    0.73  0.02
+     1      2   -5.86  0.03    0.27  0.04    0.27  0.04    0.70  0.02
+     2      3    1.97  0.08    1.33  0.09    1.47  0.10    1.74  0.08
+     3      4    7.34  0.82   35.73  1.25    8.31  0.86   22.45 15.71
+     4      5    1.40  0.11    3.22  0.26    1.74  0.10    2.25  0.10
+     5      6   -3.71  0.40   14.96  0.86   11.29  0.64   11.00  0.43
+
+
+Final results in kJ/mol:
+
+point      0 -      1,   DG -20.31 +/-  0.17
+point      1 -      2,   DG -14.63 +/-  0.08
+point      2 -      3,   DG  4.92 +/-  0.21
+point      3 -      4,   DG 18.30 +/-  2.05
+point      4 -      5,   DG  3.49 +/-  0.28
+point      5 -      6,   DG -9.27 +/-  1.00
+
+total      0 -      6,   DG -17.49 +/-  2.06
+
+
+GROMACS reminds you: "I know poetry is not dead, nor genius lost; nor has Mammon gained power over either, to bind or slay; they will both assert their existence, their presence, their liberty and strength again one day." (Jane Eyre in Jane Eyre by Charlotte Bronte)

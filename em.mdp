@@ -1,0 +1,5 @@
+integrator               = steep
+nsteps                   = 500
+coulombtype              = pme
+vdw-type                 = pme
+

@@ -1,0 +1,45 @@
+; we'll use the sd integrator with 100000 time steps (200ps)
+integrator               = sd
+nsteps                   = 100000
+dt			 = 0.002
+nstenergy                = 1000
+nstlog                   = 5000
+; cut-offs at 1.0nm
+rlist                    = 1.0
+dispcorr                 = EnerPres
+vdw-type                 = pme
+rvdw                     = 1.0
+; Coulomb interactions 
+coulombtype              = pme
+rcoulomb                 = 1.0
+fourierspacing           = 0.12
+; Constraints
+constraints              = all-bonds
+; set temperature to 300K
+tcoupl                   = v-rescale
+tc-grps                  = system
+tau-t                    = 0.2 
+ref-t                    = 300 
+; set pressure to 1 bar with a thermostat that gives a correct 
+; thermodynamic ensemble
+pcoupl			 = parrinello-rahman
+ref-p			 = 1
+compressibility		 = 4.5e-5
+tau-p			 = 5 
+
+; and set the free energy parameters
+free-energy              = yes 
+couple-moltype           = ethanol
+; these 'soft-core' parameters make sure we never get overlapping 
+; charges as lambda goes to 0
+sc-power                 = 1    
+sc-sigma                 = 0.3  
+sc-alpha                 = 1.0          
+; we still want the molecule to interact with itself at lambda=0
+couple-intramol          = no   
+couple-lambda1           = vdwq
+couple-lambda0           = none
+init-lambda-state        = 3
+; These are the lambda states at which we simulate
+; for separate LJ and Coulomb decoupling, use 
+fep-lambdas              = 0.0 0.2 0.4 0.6 0.8 0.9 1.0
