@@ -26,6 +26,7 @@ lam_A|lam_B|DG|+/-|s_A|+/-|s_B|+/-|stdev|+/-
 
 Final results in kJ/mol:
 
+--- | --- | --- | --- | --- 
 point 0-1|DG|-20.31|+/-|0.17
 point 1-2|DG|-14.63|+/-|0.08
 point 2-3|DG|4.92|+/-|0.21
