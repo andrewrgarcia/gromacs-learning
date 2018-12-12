@@ -1,5 +1,4 @@
-# gromacs-free-energy-tutorial
-Gromacs Free Energy of Solvation Tutorial
+# Gromacs Free Energy of Solvation Tutorial
 
 http://www.gromacs.org/Documentation/Tutorials/Free_energy_of_solvation_tutorial
 
@@ -12,6 +11,7 @@ Temperature: 300 K
 
 Detailed results in kT (see help for explanation):
 
+DG == "Delta G"
 
 lam_A|lam_B|DG|+/-|s_A|+/-|s_B|+/-|stdev|+/-
 --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
