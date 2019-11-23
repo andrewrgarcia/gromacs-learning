@@ -1,14 +1,13 @@
-# Gromacs Free Energy of Solvation Tutorial
+# Gromacs Free Energy of Solvation Tutorial [Output]
+### Andrew Garcia
 
+Figures and data generated from tutorial:
 http://www.gromacs.org/Documentation/Tutorials/Free_energy_of_solvation_tutorial
 
-## Figure
-VMD processed solvated.gro file
-
+#### Figure: solvated.gro processed with VMD
 <img src="solvated.JPG" alt="drawing" width="500"/></a>
 
-## Results
-Results in **RESULTS** file
+#### Results (see **RESULTS** file)
 
 ---------------------------------------------------
 Ethanol in Water (excerpt)

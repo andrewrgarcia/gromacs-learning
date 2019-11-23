@@ -1,0 +1,2 @@
+name ".*G.*" or name ".*B.*"
+all not name ".*G.*" or name ".*B.*"
