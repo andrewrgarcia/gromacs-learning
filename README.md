@@ -5,7 +5,7 @@ Figures and data generated from tutorial:
 http://www.gromacs.org/Documentation/Tutorials/Free_energy_of_solvation_tutorial
 
 #### Figure: solvated.gro processed with VMD
-<img src="solvated.JPG" alt="drawing" width="500"/></a>
+<img src="solvated.PNG" alt="drawing" width="500"/></a>
 
 #### Results (see **RESULTS** file)
 
