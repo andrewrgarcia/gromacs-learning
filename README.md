@@ -2,6 +2,12 @@
 
 http://www.gromacs.org/Documentation/Tutorials/Free_energy_of_solvation_tutorial
 
+## Figure
+VMD processed solvated.gro file
+
+<img src="solvated.JPG" alt="drawing" width="500"/></a>
+
+## Results
 Results in **RESULTS** file
 
 ---------------------------------------------------
