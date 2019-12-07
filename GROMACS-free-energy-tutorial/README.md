@@ -1,4 +1,4 @@
-# Gromacs Free Energy of Solvation Tutorial [Output]
+# Gromacs Free Energy of Solvation Tutorial [Generated Files from]
 ### Andrew Garcia
 
 Figures and data generated from tutorial:
