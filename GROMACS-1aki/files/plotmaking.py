@@ -16,10 +16,10 @@ import sys
 sys.path.append('C:/Users/garci/Dropbox (Personal)/scripts/python_import/')
 from process_output import readxl
 
-path = r'C:\Users\garci\Dropbox (Personal)\scripts\GROMACS-learning\GROMACS-1aki/'
+path = r'C:\Users\garci\Dropbox (Personal)\scripts\GROMACS-learning\GROMACS-1aki/files/'
 file = 'data.xlsx'
 readxl(path,file,sheet='Sheet1')
 readxl(path,file,sheet='Sheet2')
 readxl(path,file,sheet='Sheet3')
 readxl(path,file,sheet='Sheet4')
-readxl(path,file,sheet='Sheet5')
+readxl(path,file,'Rg',sheet='Sheet5')
