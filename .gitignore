@@ -1,4 +1,6 @@
 *.trr
 MOF/
 TPA/
+Toluene/
 GROMACS-1aki/files_393K/
+GROMACS-1aki/init/
