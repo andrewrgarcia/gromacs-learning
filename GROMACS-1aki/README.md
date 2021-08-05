@@ -4,11 +4,10 @@
 Tutorial link:
 http://www.mdtutorials.com/gmx/lysozyme/index.html
 
-![](files/summary.DENSITY.png)
-![](files/summary.EKCMT.png)
-![](files/summary.EKTOT.png)
-![](files/summary.EPTOT.png)
-![](files/summary.ETOT.png)
-![](files/summary.PRES.png)
-![](files/summary.TEMP.png)
-![](files/summary.VOLUME.png)
+![](files/Figure_1.png)
+![](files/Figure_2.png)
+![](files/Figure_3.png)
+![](files/Figure_4.png)
+![](files/Figure_5.png)
+![](files/Figure_6.png)
+
