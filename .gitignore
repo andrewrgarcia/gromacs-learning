@@ -1,4 +1,6 @@
+*#
 *.trr
+*.xtc
 MOF/
 TPA/
 Toluene/
